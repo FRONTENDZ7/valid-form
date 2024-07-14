@@ -5,7 +5,7 @@
 **Страница написана с использованием БЭМ**
 
 **Ссылка на GitHub Pages:**
-*https://frontendz7.github.io//*
+*https://frontendz7.github.io/valid-form/*
 
 ---
 
