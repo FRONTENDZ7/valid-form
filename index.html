@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+	<title>Контактная форма</title>
+</head>
+<body>
+	<main>
+		<section class="new-form">
+			<div class="container">
+				<h1 class="new-form__title">Свяжитесь с нами</h1>
+				<p class="new-form__text">
+					Заполните форму и мы свяжемся с вами в течении 10 минут.
+				</p>
+				<form action="" class="form" id="add-form">
+					<div class="input-wrapper">
+						<input id="name" data-required="true" data-max-length="11" data-min-length="2" type="text" class="input-field" placeholder="Имя">
+					</div>
+					<div class="input-wrapper">
+						<input id="mail" data-required="true" type="email" class="input-field" placeholder="Почта">
+					</div>
+					<textarea name="" id="" cols="20" rows="7" class="message-field"></textarea>
+					<button type="submit" class="form__button">Отправить</button>
+				</form>
+			</div>
+		</section>
+		<div id="popup" class="popup">
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#" class="popup__close close-popup">X</a>
+					<p class="popup__text">
+						Спасибо за ваше сообщение!
+					</p>
+				</div>
+			</div>
+		</div>
+	</main>
+    <script src="js/script.js"></script>
+</body>
+</html>
