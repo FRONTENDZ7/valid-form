@@ -50,7 +50,7 @@ function validation(form) {
 			createError(input, 'Поле не заполнено!');
 			result = false;
 		} else if (!/\S+@\S+\.\S+/.test(email)) {
-				result;
+			result;
 		}
 		
 	}
