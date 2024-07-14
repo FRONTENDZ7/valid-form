@@ -44,16 +44,15 @@ function validation(form) {
 			}
 		}
 
-		// if (input.dataset.required == 'true') {
-			if (input.value == '') {
-				removeError(input);
-				createError(input, 'Поле не заполнено!');
-				result = false;
-			} else if (!/\S+@\S+\.\S+/.test(email)) {
+		
+		if (input.value == '') {
+			removeError(input);
+			createError(input, 'Поле не заполнено!');
+			result = false;
+		} else if (!/\S+@\S+\.\S+/.test(email)) {
 				result;
-			}
-		// }	
-
+		}
+		
 	}
 
 	return result
