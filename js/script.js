@@ -60,18 +60,18 @@ function validation(form) {
 
 
 const form = document.getElementById("add-form");
+const popup = document.querySelector('.popup');
+const closePopup = document.querySelector('.close-popup');
 
 form.addEventListener('submit', function(e) {
 	e.preventDefault();
-	
-    const popup = document.querySelector('.popup');
-	const closePopup = document.querySelector('.close-popup');
 
 	if (validation(this) == true) {	
 		form.reset();
 		popup.classList.add('open');
 	}
-	closePopup.onclick = function () {
-		popup.classList.remove('open');
-	}
-})
+});
+
+closePopup.onclick = function () {
+	popup.classList.remove('open');
+};
